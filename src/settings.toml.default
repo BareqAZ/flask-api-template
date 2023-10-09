@@ -5,12 +5,8 @@ debug               = false
 # Flask uses this secret key to securely sign cookies.
 secret_key          = "dev-env"
 
-# When there are no users (when starting the project for the first time) a superuser account is created.
-# The following credentials are used for creating the initial superuser account.
-superuser_username  = "superuser"
-superuser_password  = "superuser"
-
-# Leave empty to automatically generate one
+# When starting the application for the first time a superuser account is created.
+# The following API key is given to the superuser account.
 superuser_api_key   = 'superuser'
 
 # The IP address on which the application will listen.
